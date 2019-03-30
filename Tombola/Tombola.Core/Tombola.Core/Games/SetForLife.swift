@@ -15,8 +15,7 @@ import Foundation
  
  All numbers (including lifeball) for Jackpot
  
- for other prizes see:
- https://www.national-lottery.co.uk/games/set-for-life?icid=-:mm:-:mdg:sfl:dbg:pl:co
+ https://www.national-lottery.co.uk/games/set-for-life
  */
 
 public class SetForLife: Game {

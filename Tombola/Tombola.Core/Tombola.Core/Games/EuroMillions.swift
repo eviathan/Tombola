@@ -14,6 +14,8 @@ import Foundation
  2 Lucky Star numbers from 1-12
  
  Jackpot is all numbers
+ 
+ https://www.national-lottery.co.uk/games/euromillions
  */
 
 public class EuroMillions: Game {

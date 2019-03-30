@@ -14,6 +14,8 @@ import Foundation
  
  Jackpot is all 6 numbers (regardless of bonus)
  bonus ball drawn but picked from pool of numbers
+ 
+ https://www.national-lottery.co.uk/games/lotto
  */
 
 public class Lotto: Game {

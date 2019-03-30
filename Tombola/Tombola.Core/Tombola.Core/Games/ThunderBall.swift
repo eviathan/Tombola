@@ -15,8 +15,7 @@ import Foundation
  
  All numbers (including thunderball) for Jackpot
  
- for other prizes see:
- https://www.national-lottery.co.uk/games/thunderball?icid=-:mm:-:mdg:tb:dbg:pl:co
+ https://www.national-lottery.co.uk/games/thunderball
  */
 
 public class ThunderBall: Game {

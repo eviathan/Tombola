@@ -8,6 +8,18 @@
 
 import Foundation
 
+/*
+ Rules:
+ 
+ Lotto:
+ 5 numbers from 1-59
+ https://www.national-lottery.co.uk/games/lotto-hotpicks
+
+ Euromillions:
+ 5 numbers from 1-50
+ https://www.national-lottery.co.uk/games/euromillions-hotpicks
+ */
+
 public enum HotPicksType {
     case lotto
     case euromillions
