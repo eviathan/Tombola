@@ -11,7 +11,7 @@
 		D3573C0F224FAB6D00D64B16 /* EuroMillions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3573C0E224FAB6D00D64B16 /* EuroMillions.swift */; };
 		D3573C11224FABBC00D64B16 /* Lotto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3573C10224FABBC00D64B16 /* Lotto.swift */; };
 		D3573C13224FABD100D64B16 /* SetForLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3573C12224FABD100D64B16 /* SetForLife.swift */; };
-		D3573C15224FABE000D64B16 /* Hotpicks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3573C14224FABE000D64B16 /* Hotpicks.swift */; };
+		D3573C15224FABE000D64B16 /* HotPicks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3573C14224FABE000D64B16 /* HotPicks.swift */; };
 		D3573C17224FAC8500D64B16 /* ThunderBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3573C16224FAC8500D64B16 /* ThunderBall.swift */; };
 		D3573C1C224FAEC500D64B16 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3573C1B224FAEC500D64B16 /* Game.swift */; };
 		D3573C1F224FAF0600D64B16 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3573C1E224FAF0600D64B16 /* Ball.swift */; };
@@ -26,7 +26,7 @@
 		D3573C0E224FAB6D00D64B16 /* EuroMillions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuroMillions.swift; sourceTree = "<group>"; };
 		D3573C10224FABBC00D64B16 /* Lotto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotto.swift; sourceTree = "<group>"; };
 		D3573C12224FABD100D64B16 /* SetForLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetForLife.swift; sourceTree = "<group>"; };
-		D3573C14224FABE000D64B16 /* Hotpicks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotpicks.swift; sourceTree = "<group>"; };
+		D3573C14224FABE000D64B16 /* HotPicks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotPicks.swift; sourceTree = "<group>"; };
 		D3573C16224FAC8500D64B16 /* ThunderBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderBall.swift; sourceTree = "<group>"; };
 		D3573C1B224FAEC500D64B16 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		D3573C1E224FAF0600D64B16 /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				D3573C0E224FAB6D00D64B16 /* EuroMillions.swift */,
-				D3573C14224FABE000D64B16 /* Hotpicks.swift */,
+				D3573C14224FABE000D64B16 /* HotPicks.swift */,
 				D3573C10224FABBC00D64B16 /* Lotto.swift */,
 				D3573C12224FABD100D64B16 /* SetForLife.swift */,
 				D3573C16224FAC8500D64B16 /* ThunderBall.swift */,
@@ -191,7 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3573C22224FB19E00D64B16 /* IntExtensions.swift in Sources */,
-				D3573C15224FABE000D64B16 /* Hotpicks.swift in Sources */,
+				D3573C15224FABE000D64B16 /* HotPicks.swift in Sources */,
 				D3573C0F224FAB6D00D64B16 /* EuroMillions.swift in Sources */,
 				D3573C1C224FAEC500D64B16 /* Game.swift in Sources */,
 				D3573C17224FAC8500D64B16 /* ThunderBall.swift in Sources */,

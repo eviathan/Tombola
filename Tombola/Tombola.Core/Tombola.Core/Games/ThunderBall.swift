@@ -8,7 +8,21 @@
 
 import Foundation
 
-public class ThunderBall {
+/*
+ Rules:
+ 5 numbers from 1-39
+ 1 number from 1-14 (thunderball)
+ 
+ All numbers (including thunderball) for Jackpot
+ 
+ for other prizes see:
+ https://www.national-lottery.co.uk/games/thunderball?icid=-:mm:-:mdg:tb:dbg:pl:co
+ */
+
+public class ThunderBall: Game {
     
-     public init() { }
+    public var name: String = "Thunderball"
+    public var balls: [Ball] = [.thunderball(amount: 5), .thunderballThunderball(amount: 1)]
+    
+    public init() { }
 }

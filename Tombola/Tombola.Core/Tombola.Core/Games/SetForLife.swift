@@ -19,7 +19,10 @@ import Foundation
  https://www.national-lottery.co.uk/games/set-for-life?icid=-:mm:-:mdg:sfl:dbg:pl:co
  */
 
-class SetForLife {
+public class SetForLife: Game {
+    
+    public var name: String = "Set For Life"
+    public var balls: [Ball] = [.setForLife(amount: 5), .setForLifeLifeBall(amount: 1)]
     
      public init() { }
 }
