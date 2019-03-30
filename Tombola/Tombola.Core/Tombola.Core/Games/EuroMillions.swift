@@ -18,4 +18,8 @@ import Foundation
 
 public class EuroMillions: Game {
     
+    public var name: String = "Euromillions"
+    public var balls: [Ball] = [.euromillions(amount: 5), .euromillionsLuckyStar(amount: 2)]
+    
+    public init() { }
 }

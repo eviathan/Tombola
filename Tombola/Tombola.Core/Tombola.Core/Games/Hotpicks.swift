@@ -15,4 +15,5 @@ public enum HotPicksType {
 
 public class Hotpicks {
     
+     public init() { }
 }

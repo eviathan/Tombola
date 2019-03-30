@@ -10,4 +10,5 @@ import Foundation
 
 public class ThunderBall {
     
+     public init() { }
 }

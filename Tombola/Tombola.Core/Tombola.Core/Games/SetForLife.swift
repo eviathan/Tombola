@@ -21,4 +21,5 @@ import Foundation
 
 class SetForLife {
     
+     public init() { }
 }

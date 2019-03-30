@@ -8,8 +8,8 @@
 
 import Foundation
 
-extension Int {
-    static func randomNumbersInRange(_ range: Range<Int>, amount: Int) -> [Int] {
-        return [0]
+public extension Int {
+    public static func randomNumbersInRange(_ range: Range<Int>, amount: Int) -> [Int] {
+        return (0..<amount).map { _ in Int.random(in: range) }
     }
 }

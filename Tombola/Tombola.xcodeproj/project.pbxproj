@@ -27,6 +27,7 @@
 		D321BA63224FA2A100ABE049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D321BA64224FA2A100ABE049 /* Tombola.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tombola.entitlements; sourceTree = "<group>"; };
 		D3573C09224FAA4B00D64B16 /* Tombola_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Tombola_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3573C2A224FB8FD00D64B16 /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 			children = (
 				D321BA5A224FA29F00ABE049 /* AppDelegate.swift */,
 				D321BA5C224FA29F00ABE049 /* ViewController.swift */,
+				D3573C2A224FB8FD00D64B16 /* Test.playground */,
 				D321BA5E224FA2A100ABE049 /* Assets.xcassets */,
 				D321BA60224FA2A100ABE049 /* Main.storyboard */,
 				D321BA63224FA2A100ABE049 /* Info.plist */,

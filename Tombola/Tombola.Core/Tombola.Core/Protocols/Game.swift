@@ -10,4 +10,6 @@ import Foundation
 
 public protocol Game {
     
+    var name: String { get set }
+    var balls: [Ball] { get set }
 }

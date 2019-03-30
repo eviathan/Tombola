@@ -9,21 +9,27 @@
 import Foundation
 
 public enum Ball {
+    
     case euromillions(amount: Int)
     case euromillionsLuckyStar(amount: Int)
+    case lotto(amount: Int)
     
-    func getRange() -> Range<Int> {
+    public func getRange() -> Range<Int> {
         switch self {
-        case .euromillions(_): return 0..<1
-        case .euromillionsLuckyStar(_): return 0..<3
+        case .euromillions(_): return 1..<50
+        case .euromillionsLuckyStar(_): return 1..<12
+        case .lotto(_): return 1..<59
         }
     }
     
-    func getValues() -> [Int] {
-        switch self {
-        case .euromillions(let amount),
-             .euromillionsLuckyStar(let amount):
-                return Int.randomNumbersInRange(self.getRange(), amount: amount)
-        }
+    public var values: [Int] {
+        get {
+            switch self {
+            case .euromillions(let amount),
+                 .euromillionsLuckyStar(let amount),
+                 .lotto(let amount):
+                    return Int.randomNumbersInRange(self.getRange(), amount: amount)
+            }
+        } 
     }
 }

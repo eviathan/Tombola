@@ -16,6 +16,10 @@ import Foundation
  bonus ball drawn but picked from pool of numbers
  */
 
-public class Lotto {
+public class Lotto: Game {
     
+    public var name: String = "Lotto"
+    public var balls: [Ball] = [.lotto(amount: 6)]
+    
+     public init() { }
 }
