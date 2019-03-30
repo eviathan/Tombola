@@ -10,6 +10,16 @@ import Foundation
 
 public extension Int {
     public static func randomNumbersInRange(_ range: Range<Int>, amount: Int) -> [Int] {
-        return (0..<amount).map { _ in Int.random(in: range) }
+        
+        var results = [Int]()
+        
+        while results.count < amount {
+            let randomNumber = Int.random(in: range)
+            if !results.contains(randomNumber) {
+                results.append(randomNumber)
+            }
+        }
+        
+        return results
     }
 }
