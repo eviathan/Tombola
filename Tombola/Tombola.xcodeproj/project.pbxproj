@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D351B573224FFC5100DBFB03 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351B572224FFC5100DBFB03 /* main.swift */; };
+		D351B587224FFC6B00DBFB03 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351B57A224FFC6B00DBFB03 /* Ball.swift */; };
+		D351B588224FFC6B00DBFB03 /* NSColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351B57C224FFC6B00DBFB03 /* NSColorExtensions.swift */; };
+		D351B589224FFC6B00DBFB03 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351B57D224FFC6B00DBFB03 /* IntExtensions.swift */; };
+		D351B58A224FFC6B00DBFB03 /* ThunderBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351B57F224FFC6B00DBFB03 /* ThunderBall.swift */; };
+		D351B58B224FFC6B00DBFB03 /* Lotto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351B580224FFC6B00DBFB03 /* Lotto.swift */; };
+		D351B58C224FFC6B00DBFB03 /* SetForLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351B581224FFC6B00DBFB03 /* SetForLife.swift */; };
+		D351B58D224FFC6B00DBFB03 /* HotPicks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351B582224FFC6B00DBFB03 /* HotPicks.swift */; };
+		D351B58E224FFC6B00DBFB03 /* EuroMillions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351B583224FFC6B00DBFB03 /* EuroMillions.swift */; };
+		D351B58F224FFC6B00DBFB03 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351B585224FFC6B00DBFB03 /* Game.swift */; };
+		D351B590224FFC6B00DBFB03 /* LotteryMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351B586224FFC6B00DBFB03 /* LotteryMachine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D351B56D224FFC5100DBFB03 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D351B56F224FFC5100DBFB03 /* Tombola */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tombola; sourceTree = BUILT_PRODUCTS_DIR; };
+		D351B572224FFC5100DBFB03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D351B57A224FFC6B00DBFB03 /* Ball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		D351B57C224FFC6B00DBFB03 /* NSColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColorExtensions.swift; sourceTree = "<group>"; };
+		D351B57D224FFC6B00DBFB03 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		D351B57F224FFC6B00DBFB03 /* ThunderBall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThunderBall.swift; sourceTree = "<group>"; };
+		D351B580224FFC6B00DBFB03 /* Lotto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lotto.swift; sourceTree = "<group>"; };
+		D351B581224FFC6B00DBFB03 /* SetForLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetForLife.swift; sourceTree = "<group>"; };
+		D351B582224FFC6B00DBFB03 /* HotPicks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotPicks.swift; sourceTree = "<group>"; };
+		D351B583224FFC6B00DBFB03 /* EuroMillions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EuroMillions.swift; sourceTree = "<group>"; };
+		D351B585224FFC6B00DBFB03 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		D351B586224FFC6B00DBFB03 /* LotteryMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotteryMachine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D351B56C224FFC5100DBFB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D351B566224FFC5100DBFB03 = {
+			isa = PBXGroup;
+			children = (
+				D351B571224FFC5100DBFB03 /* Tombola */,
+				D351B570224FFC5100DBFB03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D351B570224FFC5100DBFB03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D351B56F224FFC5100DBFB03 /* Tombola */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D351B571224FFC5100DBFB03 /* Tombola */ = {
+			isa = PBXGroup;
+			children = (
+				D351B579224FFC6B00DBFB03 /* Enums */,
+				D351B57B224FFC6B00DBFB03 /* Extensions */,
+				D351B57E224FFC6B00DBFB03 /* Games */,
+				D351B584224FFC6B00DBFB03 /* Protocols */,
+				D351B586224FFC6B00DBFB03 /* LotteryMachine.swift */,
+				D351B572224FFC5100DBFB03 /* main.swift */,
+			);
+			path = Tombola;
+			sourceTree = "<group>";
+		};
+		D351B579224FFC6B00DBFB03 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				D351B57A224FFC6B00DBFB03 /* Ball.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		D351B57B224FFC6B00DBFB03 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D351B57C224FFC6B00DBFB03 /* NSColorExtensions.swift */,
+				D351B57D224FFC6B00DBFB03 /* IntExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D351B57E224FFC6B00DBFB03 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				D351B57F224FFC6B00DBFB03 /* ThunderBall.swift */,
+				D351B580224FFC6B00DBFB03 /* Lotto.swift */,
+				D351B581224FFC6B00DBFB03 /* SetForLife.swift */,
+				D351B582224FFC6B00DBFB03 /* HotPicks.swift */,
+				D351B583224FFC6B00DBFB03 /* EuroMillions.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		D351B584224FFC6B00DBFB03 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D351B585224FFC6B00DBFB03 /* Game.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D351B56E224FFC5100DBFB03 /* Tombola */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D351B576224FFC5100DBFB03 /* Build configuration list for PBXNativeTarget "Tombola" */;
+			buildPhases = (
+				D351B56B224FFC5100DBFB03 /* Sources */,
+				D351B56C224FFC5100DBFB03 /* Frameworks */,
+				D351B56D224FFC5100DBFB03 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tombola;
+			productName = Tombola;
+			productReference = D351B56F224FFC5100DBFB03 /* Tombola */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D351B567224FFC5100DBFB03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Eviathan;
+				TargetAttributes = {
+					D351B56E224FFC5100DBFB03 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D351B56A224FFC5100DBFB03 /* Build configuration list for PBXProject "Tombola" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D351B566224FFC5100DBFB03;
+			productRefGroup = D351B570224FFC5100DBFB03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D351B56E224FFC5100DBFB03 /* Tombola */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D351B56B224FFC5100DBFB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D351B58B224FFC6B00DBFB03 /* Lotto.swift in Sources */,
+				D351B58F224FFC6B00DBFB03 /* Game.swift in Sources */,
+				D351B590224FFC6B00DBFB03 /* LotteryMachine.swift in Sources */,
+				D351B587224FFC6B00DBFB03 /* Ball.swift in Sources */,
+				D351B589224FFC6B00DBFB03 /* IntExtensions.swift in Sources */,
+				D351B573224FFC5100DBFB03 /* main.swift in Sources */,
+				D351B58C224FFC6B00DBFB03 /* SetForLife.swift in Sources */,
+				D351B58A224FFC6B00DBFB03 /* ThunderBall.swift in Sources */,
+				D351B58E224FFC6B00DBFB03 /* EuroMillions.swift in Sources */,
+				D351B58D224FFC6B00DBFB03 /* HotPicks.swift in Sources */,
+				D351B588224FFC6B00DBFB03 /* NSColorExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D351B574224FFC5100DBFB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D351B575224FFC5100DBFB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D351B577224FFC5100DBFB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7GGWR5963;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		D351B578224FFC5100DBFB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7GGWR5963;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D351B56A224FFC5100DBFB03 /* Build configuration list for PBXProject "Tombola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D351B574224FFC5100DBFB03 /* Debug */,
+				D351B575224FFC5100DBFB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D351B576224FFC5100DBFB03 /* Build configuration list for PBXNativeTarget "Tombola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D351B577224FFC5100DBFB03 /* Debug */,
+				D351B578224FFC5100DBFB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D351B567224FFC5100DBFB03 /* Project object */;
+}
