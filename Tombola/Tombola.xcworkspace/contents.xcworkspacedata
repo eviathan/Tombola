@@ -2,13 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Tombola.CLI/Tombola.CLI.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Tombola.Core/Tombola.Core.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Tombola.xcodeproj">
+      location = "group:Tombola/Tombola.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

@@ -18,7 +18,7 @@ public class LotteryMachine {
         
         for (index, game) in games.enumerated() {
             
-            var result = (name: "\(index+1).\(game.name)", values: [Int]())
+            var result = (name: "\(index+1). \(game.name)", values: [Int]())
             
             for ball in game.balls {
                 result.values.append(contentsOf: ball.values)
