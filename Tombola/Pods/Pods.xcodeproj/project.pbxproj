@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14241AB069D4DEBFFA70D95868E27D06 /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB3A493A7848F5B5A2599D127290290 /* Rainbow.swift */; };
+		2A3FB35F5172228C43E16DD8BEE3D5A3 /* ControlCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E61AB5324E68CDE538E4B9323347CCF /* ControlCode.swift */; };
+		44ACA3B364C5178E638E3ECC49B610DF /* XcodeColorsSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05094878B18E187840444CADABDEE2A2 /* XcodeColorsSupport.swift */; };
+		4A76DB29FBF8C40D87CEFDB72BE515E9 /* Pods-Tombola-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD01DCF01DB27ABCE387DA36529024C /* Pods-Tombola-dummy.m */; };
+		4BF60E45723CB1A07D7FC88CF8258C8D /* StringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBDACF520B0AD39FE1AA40B19CC0C88 /* StringGenerator.swift */; };
+		5A66C72B47FD65712B7DE62C74391F66 /* RainbowSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D31EEF66D6FE17D9A7A2A24D70C80 /* RainbowSwift-dummy.m */; };
+		747160B980EEF4C69AA6FD03A9F1AB73 /* Pods-Tombola-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE260EACAA5E7925F5264C0EB09461E /* Pods-Tombola-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E5AB45C43871EEA6F3D3F307DBE2EC3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A56298B93014D5D1FEAF22A318B3E1 /* Color.swift */; };
+		91DFEA2D37C8468BA7274F3CEB0DB613 /* ModesExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D5F548DACEAD8BC96FD030F199FA03 /* ModesExtractor.swift */; };
+		9C8A90EDDF230EA2EC7016BED89961D4 /* CodesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C47A7AFAACFE93DBF5B50F3EE0753D7 /* CodesParser.swift */; };
+		AB00281F67E3DE99899FF38BCF12ADA0 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20663E46460B95664965EBBE76E229E2 /* Style.swift */; };
+		AE151CFD90C56D9C919B138F6C0C4C3F /* Rainbow.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BEF59D121893AC4DE9CCE4519454BE4 /* Rainbow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B449A4B91B76DB5E8E8A7C6ECBCA0872 /* RainbowSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8EE263FB41BDAFAB28FEA3A3E37A56B /* RainbowSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7C517DACDD0B5A1991B3DBFED658A48 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E8D88A83E4A732826C362FA5A21B0F /* BackgroundColor.swift */; };
+		C88F6BD95F3F5F98B1E6A3BDA418414F /* String+Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8D359F7E90F3A0B946EEE3CA98732 /* String+Rainbow.swift */; };
+		DFA6528DC5A14919B90A01B0FA95846E /* OutputTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE065FE7B6A13499A2AA16380CE2BA6 /* OutputTarget.swift */; };
+		E3D1CABFEC7BB0B369C2701937495531 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
+		E5859E718606D91F28033D6E77EAAAA6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFC62731475013BE322D58617844205C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 882D58B59F5E4E16AD0DFA221D9C2115;
+			remoteInfo = RainbowSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05094878B18E187840444CADABDEE2A2 /* XcodeColorsSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XcodeColorsSupport.swift; path = Sources/XcodeColorsSupport.swift; sourceTree = "<group>"; };
+		0C47A7AFAACFE93DBF5B50F3EE0753D7 /* CodesParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodesParser.swift; path = Sources/CodesParser.swift; sourceTree = "<group>"; };
+		14C64ABB73F3101924C1D894A8EE7E97 /* RainbowSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RainbowSwift.framework; path = RainbowSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D5F548DACEAD8BC96FD030F199FA03 /* ModesExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModesExtractor.swift; path = Sources/ModesExtractor.swift; sourceTree = "<group>"; };
+		20663E46460B95664965EBBE76E229E2 /* Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Style.swift; path = Sources/Style.swift; sourceTree = "<group>"; };
+		28D8D359F7E90F3A0B946EEE3CA98732 /* String+Rainbow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Rainbow.swift"; path = "Sources/String+Rainbow.swift"; sourceTree = "<group>"; };
+		3370B1AD29DF5C614709ED4AF3DC937F /* RainbowSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RainbowSwift-prefix.pch"; sourceTree = "<group>"; };
+		339ED54930A096F16986B1DEF568DCEA /* Pods-Tombola-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tombola-resources.sh"; sourceTree = "<group>"; };
+		3BEF59D121893AC4DE9CCE4519454BE4 /* Rainbow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Rainbow.h; path = Sources/Rainbow.h; sourceTree = "<group>"; };
+		3ECB1637A8E8DD94DA6127DBE9830241 /* Pods-Tombola-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tombola-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3FE065FE7B6A13499A2AA16380CE2BA6 /* OutputTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OutputTarget.swift; path = Sources/OutputTarget.swift; sourceTree = "<group>"; };
+		417D31EEF66D6FE17D9A7A2A24D70C80 /* RainbowSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RainbowSwift-dummy.m"; sourceTree = "<group>"; };
+		4E61AB5324E68CDE538E4B9323347CCF /* ControlCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlCode.swift; path = Sources/ControlCode.swift; sourceTree = "<group>"; };
+		55E8D88A83E4A732826C362FA5A21B0F /* BackgroundColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundColor.swift; path = Sources/BackgroundColor.swift; sourceTree = "<group>"; };
+		65D2E5B19C593739BD3FDBCB84239D0F /* Pods_Tombola.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tombola.framework; path = "Pods-Tombola.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B3FBBAEDFB2CB1490D3CF404784627 /* RainbowSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RainbowSwift.xcconfig; sourceTree = "<group>"; };
+		8FE260EACAA5E7925F5264C0EB09461E /* Pods-Tombola-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tombola-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A165AABE4B1529414D44006639B8294E /* Pods-Tombola.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tombola.modulemap"; sourceTree = "<group>"; };
+		A8EE263FB41BDAFAB28FEA3A3E37A56B /* RainbowSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RainbowSwift-umbrella.h"; sourceTree = "<group>"; };
+		ACCBC8F9B98E73D7E26FB8C98C365534 /* RainbowSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RainbowSwift.modulemap; sourceTree = "<group>"; };
+		ADBDACF520B0AD39FE1AA40B19CC0C88 /* StringGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringGenerator.swift; path = Sources/StringGenerator.swift; sourceTree = "<group>"; };
+		B94A5C7088D6CA1CF079F1FEF4A312CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD01DCF01DB27ABCE387DA36529024C /* Pods-Tombola-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tombola-dummy.m"; sourceTree = "<group>"; };
+		BDB3A493A7848F5B5A2599D127290290 /* Rainbow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rainbow.swift; path = Sources/Rainbow.swift; sourceTree = "<group>"; };
+		C5F486B23D5E98601991DEC8AE0919DA /* Pods-Tombola-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tombola-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC54ACAE93A23F267BBC938C0982F856 /* Pods-Tombola-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tombola-frameworks.sh"; sourceTree = "<group>"; };
+		DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		EF40D2F97B241F24605270117DB105BB /* Pods-Tombola.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tombola.release.xcconfig"; sourceTree = "<group>"; };
+		F4A56298B93014D5D1FEAF22A318B3E1 /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Sources/Color.swift; sourceTree = "<group>"; };
+		FC745937D7803C9EE543822BC186F1D9 /* Pods-Tombola.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tombola.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87B31B212EE6C8FFE42B0D9CCCCF5340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D1CABFEC7BB0B369C2701937495531 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3573838640BE75CD88E4FFC1C713EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5859E718606D91F28033D6E77EAAAA6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA7AC8429882A95AA0810A9DCDED54FF /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42162A603F6D1E3EDC7778EDAC2F126D /* RainbowSwift */ = {
+			isa = PBXGroup;
+			children = (
+				55E8D88A83E4A732826C362FA5A21B0F /* BackgroundColor.swift */,
+				0C47A7AFAACFE93DBF5B50F3EE0753D7 /* CodesParser.swift */,
+				F4A56298B93014D5D1FEAF22A318B3E1 /* Color.swift */,
+				4E61AB5324E68CDE538E4B9323347CCF /* ControlCode.swift */,
+				17D5F548DACEAD8BC96FD030F199FA03 /* ModesExtractor.swift */,
+				3FE065FE7B6A13499A2AA16380CE2BA6 /* OutputTarget.swift */,
+				3BEF59D121893AC4DE9CCE4519454BE4 /* Rainbow.h */,
+				BDB3A493A7848F5B5A2599D127290290 /* Rainbow.swift */,
+				28D8D359F7E90F3A0B946EEE3CA98732 /* String+Rainbow.swift */,
+				ADBDACF520B0AD39FE1AA40B19CC0C88 /* StringGenerator.swift */,
+				20663E46460B95664965EBBE76E229E2 /* Style.swift */,
+				05094878B18E187840444CADABDEE2A2 /* XcodeColorsSupport.swift */,
+				49EEFEC810D23A02EF162B72DB23660F /* Support Files */,
+			);
+			name = RainbowSwift;
+			path = RainbowSwift;
+			sourceTree = "<group>";
+		};
+		49EEFEC810D23A02EF162B72DB23660F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACCBC8F9B98E73D7E26FB8C98C365534 /* RainbowSwift.modulemap */,
+				77B3FBBAEDFB2CB1490D3CF404784627 /* RainbowSwift.xcconfig */,
+				417D31EEF66D6FE17D9A7A2A24D70C80 /* RainbowSwift-dummy.m */,
+				3370B1AD29DF5C614709ED4AF3DC937F /* RainbowSwift-prefix.pch */,
+				A8EE263FB41BDAFAB28FEA3A3E37A56B /* RainbowSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RainbowSwift";
+			sourceTree = "<group>";
+		};
+		4FAC27EC4632061EB33DD0DA1D9CF23B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61931D2AA5FBAD46986E481AECD90518 /* Pods-Tombola */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		61931D2AA5FBAD46986E481AECD90518 /* Pods-Tombola */ = {
+			isa = PBXGroup;
+			children = (
+				B94A5C7088D6CA1CF079F1FEF4A312CC /* Info.plist */,
+				A165AABE4B1529414D44006639B8294E /* Pods-Tombola.modulemap */,
+				3ECB1637A8E8DD94DA6127DBE9830241 /* Pods-Tombola-acknowledgements.markdown */,
+				C5F486B23D5E98601991DEC8AE0919DA /* Pods-Tombola-acknowledgements.plist */,
+				BAD01DCF01DB27ABCE387DA36529024C /* Pods-Tombola-dummy.m */,
+				DC54ACAE93A23F267BBC938C0982F856 /* Pods-Tombola-frameworks.sh */,
+				339ED54930A096F16986B1DEF568DCEA /* Pods-Tombola-resources.sh */,
+				8FE260EACAA5E7925F5264C0EB09461E /* Pods-Tombola-umbrella.h */,
+				FC745937D7803C9EE543822BC186F1D9 /* Pods-Tombola.debug.xcconfig */,
+				EF40D2F97B241F24605270117DB105BB /* Pods-Tombola.release.xcconfig */,
+			);
+			name = "Pods-Tombola";
+			path = "Target Support Files/Pods-Tombola";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				E4AD1E0FD5C51F7C0D6D4ECB9C14B412 /* Pods */,
+				F9FEAC9ADE1E6365F6EF3DAE5CC0BA4D /* Products */,
+				4FAC27EC4632061EB33DD0DA1D9CF23B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E4AD1E0FD5C51F7C0D6D4ECB9C14B412 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42162A603F6D1E3EDC7778EDAC2F126D /* RainbowSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9FEAC9ADE1E6365F6EF3DAE5CC0BA4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65D2E5B19C593739BD3FDBCB84239D0F /* Pods_Tombola.framework */,
+				14C64ABB73F3101924C1D894A8EE7E97 /* RainbowSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7AC8429882A95AA0810A9DCDED54FF /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B934494795682DFF7ECC8FC69026A841 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747160B980EEF4C69AA6FD03A9F1AB73 /* Pods-Tombola-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA54352E747D90632AFD3CF783BAE4EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE151CFD90C56D9C919B138F6C0C4C3F /* Rainbow.h in Headers */,
+				B449A4B91B76DB5E8E8A7C6ECBCA0872 /* RainbowSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		882D58B59F5E4E16AD0DFA221D9C2115 /* RainbowSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E72A357D0B2581305EA5D59540031F /* Build configuration list for PBXNativeTarget "RainbowSwift" */;
+			buildPhases = (
+				FA54352E747D90632AFD3CF783BAE4EC /* Headers */,
+				D0BDE477568C76B159492C520749D95D /* Sources */,
+				F3573838640BE75CD88E4FFC1C713EB1 /* Frameworks */,
+				34C5DC67AF1D731143CA3FD40F97BB72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainbowSwift;
+			productName = RainbowSwift;
+			productReference = 14C64ABB73F3101924C1D894A8EE7E97 /* RainbowSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4CA3545F698DA0A5EF114E237D80F86 /* Pods-Tombola */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85285189A1F4CBB9D4D38C0384E87D3 /* Build configuration list for PBXNativeTarget "Pods-Tombola" */;
+			buildPhases = (
+				B934494795682DFF7ECC8FC69026A841 /* Headers */,
+				25B7143C816BA81B596EF90460462A4A /* Sources */,
+				87B31B212EE6C8FFE42B0D9CCCCF5340 /* Frameworks */,
+				048536BB9F2045293FCAC38A92A6B95F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C57708A1842A0D0371BBE0B757C4B76A /* PBXTargetDependency */,
+			);
+			name = "Pods-Tombola";
+			productName = "Pods-Tombola";
+			productReference = 65D2E5B19C593739BD3FDBCB84239D0F /* Pods_Tombola.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F9FEAC9ADE1E6365F6EF3DAE5CC0BA4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4CA3545F698DA0A5EF114E237D80F86 /* Pods-Tombola */,
+				882D58B59F5E4E16AD0DFA221D9C2115 /* RainbowSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048536BB9F2045293FCAC38A92A6B95F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C5DC67AF1D731143CA3FD40F97BB72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25B7143C816BA81B596EF90460462A4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A76DB29FBF8C40D87CEFDB72BE515E9 /* Pods-Tombola-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BDE477568C76B159492C520749D95D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C517DACDD0B5A1991B3DBFED658A48 /* BackgroundColor.swift in Sources */,
+				9C8A90EDDF230EA2EC7016BED89961D4 /* CodesParser.swift in Sources */,
+				8E5AB45C43871EEA6F3D3F307DBE2EC3 /* Color.swift in Sources */,
+				2A3FB35F5172228C43E16DD8BEE3D5A3 /* ControlCode.swift in Sources */,
+				91DFEA2D37C8468BA7274F3CEB0DB613 /* ModesExtractor.swift in Sources */,
+				DFA6528DC5A14919B90A01B0FA95846E /* OutputTarget.swift in Sources */,
+				14241AB069D4DEBFFA70D95868E27D06 /* Rainbow.swift in Sources */,
+				5A66C72B47FD65712B7DE62C74391F66 /* RainbowSwift-dummy.m in Sources */,
+				C88F6BD95F3F5F98B1E6A3BDA418414F /* String+Rainbow.swift in Sources */,
+				4BF60E45723CB1A07D7FC88CF8258C8D /* StringGenerator.swift in Sources */,
+				AB00281F67E3DE99899FF38BCF12ADA0 /* Style.swift in Sources */,
+				44ACA3B364C5178E638E3ECC49B610DF /* XcodeColorsSupport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C57708A1842A0D0371BBE0B757C4B76A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RainbowSwift;
+			target = 882D58B59F5E4E16AD0DFA221D9C2115 /* RainbowSwift */;
+			targetProxy = FFC62731475013BE322D58617844205C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1469B4B98EC5EED4E86D3A3A77C92EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF40D2F97B241F24605270117DB105BB /* Pods-Tombola.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tombola/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tombola/Pods-Tombola.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DFC10011775076250E89428F160E030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC745937D7803C9EE543822BC186F1D9 /* Pods-Tombola.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tombola/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tombola/Pods-Tombola.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9992CE2C5F65320F0081E9A0ACAFFF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D742B9C9D327BA2DBE74105210F6A620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B3FBBAEDFB2CB1490D3CF404784627 /* RainbowSwift.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/RainbowSwift/RainbowSwift-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/RainbowSwift/RainbowSwift.modulemap";
+				PRODUCT_MODULE_NAME = RainbowSwift;
+				PRODUCT_NAME = RainbowSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D79C9CF82E0503B6800775A4C33DD9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E11B28EF25512D77B9BEDEDAEE75C510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B3FBBAEDFB2CB1490D3CF404784627 /* RainbowSwift.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/RainbowSwift/RainbowSwift-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/RainbowSwift/RainbowSwift.modulemap";
+				PRODUCT_MODULE_NAME = RainbowSwift;
+				PRODUCT_NAME = RainbowSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E72A357D0B2581305EA5D59540031F /* Build configuration list for PBXNativeTarget "RainbowSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D742B9C9D327BA2DBE74105210F6A620 /* Debug */,
+				E11B28EF25512D77B9BEDEDAEE75C510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79C9CF82E0503B6800775A4C33DD9A7 /* Debug */,
+				9992CE2C5F65320F0081E9A0ACAFFF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85285189A1F4CBB9D4D38C0384E87D3 /* Build configuration list for PBXNativeTarget "Pods-Tombola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFC10011775076250E89428F160E030 /* Debug */,
+				1469B4B98EC5EED4E86D3A3A77C92EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

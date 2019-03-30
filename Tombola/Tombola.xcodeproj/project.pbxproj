@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4981E9246CFD12749B46CF9C /* Pods_Tombola.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD84FD826E108B21B37B8D1 /* Pods_Tombola.framework */; };
 		D351B573224FFC5100DBFB03 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351B572224FFC5100DBFB03 /* main.swift */; };
 		D351B587224FFC6B00DBFB03 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351B57A224FFC6B00DBFB03 /* Ball.swift */; };
 		D351B588224FFC6B00DBFB03 /* NSColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351B57C224FFC6B00DBFB03 /* NSColorExtensions.swift */; };
@@ -33,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		58ED1BFCC5882FB9A8A82498 /* Pods-Tombola.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tombola.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tombola/Pods-Tombola.release.xcconfig"; sourceTree = "<group>"; };
+		CBD84FD826E108B21B37B8D1 /* Pods_Tombola.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tombola.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D351B56F224FFC5100DBFB03 /* Tombola */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tombola; sourceTree = BUILT_PRODUCTS_DIR; };
 		D351B572224FFC5100DBFB03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D351B57A224FFC6B00DBFB03 /* Ball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		D351B583224FFC6B00DBFB03 /* EuroMillions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EuroMillions.swift; sourceTree = "<group>"; };
 		D351B585224FFC6B00DBFB03 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		D351B586224FFC6B00DBFB03 /* LotteryMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotteryMachine.swift; sourceTree = "<group>"; };
+		FFA06570D90F271B8DBDE3A5 /* Pods-Tombola.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tombola.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tombola/Pods-Tombola.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,17 +56,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4981E9246CFD12749B46CF9C /* Pods_Tombola.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		157AE333964EF0DD49E06A38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFA06570D90F271B8DBDE3A5 /* Pods-Tombola.debug.xcconfig */,
+				58ED1BFCC5882FB9A8A82498 /* Pods-Tombola.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D351B566224FFC5100DBFB03 = {
 			isa = PBXGroup;
 			children = (
 				D351B571224FFC5100DBFB03 /* Tombola */,
 				D351B570224FFC5100DBFB03 /* Products */,
+				157AE333964EF0DD49E06A38 /* Pods */,
+				FD94E376265E81E87333D198 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +140,14 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		FD94E376265E81E87333D198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD84FD826E108B21B37B8D1 /* Pods_Tombola.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D351B576224FFC5100DBFB03 /* Build configuration list for PBXNativeTarget "Tombola" */;
 			buildPhases = (
+				EF3EF3C9F10F372B0BEA2921 /* [CP] Check Pods Manifest.lock */,
 				D351B56B224FFC5100DBFB03 /* Sources */,
 				D351B56C224FFC5100DBFB03 /* Frameworks */,
 				D351B56D224FFC5100DBFB03 /* CopyFiles */,
@@ -175,6 +200,31 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EF3EF3C9F10F372B0BEA2921 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tombola-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D351B56B224FFC5100DBFB03 /* Sources */ = {
@@ -315,6 +365,7 @@
 		};
 		D351B577224FFC5100DBFB03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA06570D90F271B8DBDE3A5 /* Pods-Tombola.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7GGWR5963;
@@ -325,6 +376,7 @@
 		};
 		D351B578224FFC5100DBFB03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58ED1BFCC5882FB9A8A82498 /* Pods-Tombola.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7GGWR5963;

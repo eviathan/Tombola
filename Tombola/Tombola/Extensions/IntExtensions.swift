@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Cocoa
 
 public extension Int {
     public static func randomNumbersInRange(_ range: Range<Int>, amount: Int) -> [Int] {
